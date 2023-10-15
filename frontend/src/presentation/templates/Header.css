@@ -1,0 +1,214 @@
+header {
+    width: 100vw;
+    background-color: #3FD96D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top_header_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid_header_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search_header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.search_container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 6px 15px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.search_container:hover, .search_container:active {
+    background-color: white;
+    color: #009a2e;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.search_container:hover *, .search_container:hover .input_search::placeholder {
+    color: #009a2e;
+}
+
+.input_search {
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: initial;
+    border: unset;
+    margin: initial;
+    outline: initial;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.search_icon {
+    cursor: pointer;
+}
+
+.input_search::placeholder {
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.input_search::-ms-clear {
+    display: none; /* Remove o ícone de limpar no Internet Explorer */
+  }
+  
+  .input_search::-webkit-search-cancel-button {
+    appearance: none; /* Remove o ícone de limpar no Chrome e Safari */
+  }
+
+.logo_header {
+    height: 80px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.login_header_container {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_login_register {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_link_header{
+    width: 20%;
+}
+
+.menu_header_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.menu_links {
+    padding: 10px;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: .3s;
+}
+
+.menu_links:hover {
+    background-color: white;
+    color: #3FD96D;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.login_container, .register_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 80%;
+    transition: .5s;
+}
+
+.login_container {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.register_container {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.login_link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: .8s;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.login_container:hover .login_link, .register_container:hover .login_link{
+    color: #009a2e;
+}
+
+.login_container:hover, .register_container:hover {
+    background-color: white;
+    transform: scale(0.98);
+}
+
+.division {
+    border-bottom: 4px solid #3FD96D;
+    height: 1px;
+    margin: 10px 0 10px 20px;
+    width: 50%;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.prod_sub_menu {
+    position: absolute;
+    z-index: 50;
+    top: 100%;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    overflow: hidden;
+}
+
+.prod_sub_menu_links {
+    color: #3FD96D;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 20px;
+    transition: .3s;
+}
+
+.prod_sub_menu_links:hover {
+    background-color: #009a2e;
+    color: white;
+}
+
+.menu_links:hover  .prod_sub_menu {
+    display: flex;
+}

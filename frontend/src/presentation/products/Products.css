@@ -1,0 +1,11 @@
+.page_button {
+    border: unset;
+    margin: 10px 10px;
+    background-color: #3fd96d;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    border: 3px solid rgb(255, 255, 255);
+    font-weight: bold;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}

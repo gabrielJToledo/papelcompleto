@@ -1,0 +1,51 @@
+.cardProducts_title {
+    display: flex;
+    background-color: #fafafa;
+
+}
+
+.cardProducts_title p {
+    padding: 5px 10px;
+    margin: unset;
+}
+
+.p_regs_prod, .product_regs_container {
+    width: 50%;
+}
+
+.p_regs_price, .p_regs_actions, .price_regs_container, .actions_regs_container {
+    width: 25%;
+}
+
+.actions_regs_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.createProduct_card-registeredP {
+    overflow: hidden;
+    padding: unset;
+}
+
+.product_regs_img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #c7c7c7;
+}
+
+.product_regs_container {
+    display: flex;
+    align-items: center;
+}
+
+.product_regs_container h2 {
+    margin: 0 0 0 10px;
+}
+
+.edit_icon {
+    color: gray;
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    margin: unset !important;
+}
+
+.img_banner {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.slick-slider > button {
+    z-index: 15 !important;
+}
+
+.slick-prev {
+    left: 10px !important;
+}
+
+.slick-next {
+    right: 10px !important;
+}
+
+.slick-dots {
+    bottom: 10px !important;
+}
+
+.slick-dots li.slick-active button:before, .slick-dots li button:before {
+    color: white !important;
+}

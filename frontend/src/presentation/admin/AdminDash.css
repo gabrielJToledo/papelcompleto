@@ -1,0 +1,47 @@
+.adminDash {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #fafafa;
+}
+.adminDash_menu_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 270px;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-right: 1px solid #d5d5d5;
+}
+
+.administrate_menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.link_menu_admin {
+    text-decoration: none;
+    color: #575757;
+    padding: 5px;
+    margin: 5px;
+    transition: .5s;
+    border-radius: 10px;
+    font-size: 0.8em;
+}
+
+.link_menu_admin:hover {
+    background-color: #e5e5e5;
+}
+
+.administrate_menu h2 {
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.adminDash_container {
+    flex: 1;
+    margin-left: 130px;
+}

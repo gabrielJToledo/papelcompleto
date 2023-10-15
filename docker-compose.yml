@@ -1,0 +1,32 @@
+version: '3.1'
+
+services:
+  backend:
+    image: backend-papel-app
+    ports:
+      - "5000:5000"
+    environment:
+      MONGO_URL: mongodb://localhost:27017/papel_pintado
+      BACKEND_PORT: 5000
+      CLIENT_ID_MP: 3937778398142382
+      CLIENT_SECRET_MP: VCCFxM63zyOvfH6dKN3xCragpx9MK7uZ
+      AUTH_SECRET: fdjishui@@dfiujhruehuir4884848
+    command: npm start
+
+  # frontend:
+  #   image: frontend-scale-app
+  #   ports:
+  #     - "3000:3000"
+  #   environment:
+  #     REACT_APP_SIGNIN_API: http://191.101.234.229:5000/api/users/signin/
+  #     REACT_APP_ALTERUSERWITHOUTPASS_API: http://191.101.234.229:5000/api/users/alterUserWithoutPass
+  #     REACT_APP_ALTERUSERWITH_API: http://191.101.234.229:5000/api/users/alterUserWithPass
+  #     REACT_APP_USERDELETE_API: http://191.101.234.229:5000/api/users/delete
+  #     REACT_APP_USERSNOTADMIN_API: http://191.101.234.229:5000/api/users/notAdmin
+  #     REACT_APP_AUTH_API: http://191.101.234.229:5000/api/auth/
+  #     REACT_APP_DATE_MONTH_API: http://191.101.234.229:5000/api/date/month
+  #     REACT_APP_DATE_INSERTSCALE_API: http://191.101.234.229:5000/api/date/insertScale
+  #     REACT_APP_GETUSER_API: http://191.101.234.229:5000/api/api/users/currentUser
+  #   command: npm start
+  #   depends_on:
+  #     - "backend"

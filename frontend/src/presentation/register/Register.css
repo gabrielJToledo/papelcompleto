@@ -1,0 +1,29 @@
+.register_card {
+    width: 400px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+}
+
+.input_register {
+     margin: 5px 0;
+     padding: 5px 10px;
+     border-radius: 5px;
+     border: 1px solid rgb(161, 161, 161);
+     text-decoration: none;
+     color: rgb(86, 86, 86);
+     background-color: #00000006;
+}
+
+.submit_register {
+    border: unset;
+    background-color: #3FD96D;
+    color: white;
+    margin: 10px 0;
+    padding: 10px 0;
+    transition: .3s;
+}
+
+.submit_register:hover {
+    background-color: #1bcb50;
+}

@@ -1,0 +1,126 @@
+.currentProduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.currentProduct_container {
+padding: 25px 10px;
+}
+
+.currentProduct_images {
+    display: flex;
+    width: 60%;
+}
+
+.currentProduct_infos {
+  width: 40%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.currentProduct-image {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.small-images-container {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 15px;
+}
+
+.small-image {
+  height: 50px;
+  width: 50px;
+  margin: 5px 0;
+  object-fit: cover;
+  padding: 2px;
+  border: 4px solid gray;
+  border-radius: 8px;
+  transition: .3s;
+  cursor: pointer;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.selected-image {
+  border: 4px solid rgb(0, 195, 255);
+}
+
+.currentProduct_info_container {
+  display: flex;
+}
+
+.currentProduct_infos {
+  border: 1px solid rgb(204, 204, 204);
+  margin: 0 5px 0 15px;
+  border-radius: 12px;
+  padding: 15px;
+}
+
+.currentProduct_title_like {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.currentProduct_title_like h2 {
+  font-weight: 300;
+}
+
+.currentProduct_price {
+  margin: 10px 0;
+}
+
+.currentProduct_adct_prod {
+  background-color: rgb(206, 206, 206);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.currentProduct_buy_button {
+  display: flex;
+}
+
+.currentProduct_buy_prod {
+  flex: 1;
+  margin-left: 10px;
+  display: flex;
+}
+
+.icon_adct {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.buy_button {
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.3em;
+  color: #fff;
+  border: unset;
+  border-radius: 8px;
+  background-color: #0084ff;
+}
+
+.currentProduct_desc_container, .currentProduct_comments {
+  padding: 20px;
+}
+
+.division-soft {
+  margin-top: 20px;
+  border: 1px solid #d7d7d7;
+}
+
+.buy_button-cart {
+  background-color: #3FD96D;
+  margin: 10px 0;
+  padding: 5px 0;
+}
